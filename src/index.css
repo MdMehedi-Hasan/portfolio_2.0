@@ -5,3 +5,9 @@
 html{
   background-color: black;
 }
+.bg-gray{
+  background-color: #888888;
+}
+.border-gray{
+  border-color: #888888;
+}
