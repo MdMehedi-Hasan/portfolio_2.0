@@ -1,9 +1,8 @@
 import Home from './Pages/Home';
-import logo from './logo.svg';
 
 function App() {
   return (
-    <div>
+    <div className='font-inter'>
       <Home />
     </div>
   );
