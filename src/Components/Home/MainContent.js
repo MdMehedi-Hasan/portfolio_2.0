@@ -3,6 +3,7 @@ import { Button, SwipeableDrawer } from '@mui/material';
 import { HiMenuAlt4 } from "react-icons/hi";
 import NavMenu from '../Common/NavMenu';
 import Intro from './Intro';
+import About from './About';
 
 
 export default function MainContent() {
@@ -10,10 +11,10 @@ export default function MainContent() {
     return (
         <div className='text-white relative pl-10'>
             {/*  */}
-            <button onClick={() => setOpen(true)} className='border border-gray rounded-full p-2 text-xl absolute right-5 top-5 z-10'>
+            <button onClick={() => setOpen(true)} className='border border-gray rounded-full p-2 text-xl fixed top-5 right-10 z-10'>
                 <HiMenuAlt4 />
             </button>
-            <div className='absolute right-5 h-screen w-fit flex flex-col justify-center'>
+            <div className='fixed top-0 bottom-0 right-10 w-fit flex flex-col justify-center'>
                 <NavMenu />
             </div>
             <SwipeableDrawer
@@ -27,6 +28,7 @@ export default function MainContent() {
             {/*  */}
             <div className='max-w-3xl'>
                 <Intro />
+                <About />
             </div>
         </div>
     )

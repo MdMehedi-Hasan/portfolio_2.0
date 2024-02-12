@@ -25,7 +25,7 @@ export default function SideProfile() {
             </ul>
             <p className='text-xs text-center text-slate-200'>Hello folks, I am Md. Mehedi Hasan a professional front-end developer with more than 2 years of working experience.</p>
             <div className='flex justify-center mt-5'>
-                <button className='bg-green-600 rounded-full w-2/3 py-2' onClick={() => setOpen(true)}>Hire Me!</button>
+                <button className='bg-primary rounded-full w-2/3 py-2' onClick={() => setOpen(true)}>Hire Me!</button>
             </div>
         </div>
     )
