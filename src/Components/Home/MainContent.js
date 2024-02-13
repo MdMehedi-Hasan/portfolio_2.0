@@ -4,6 +4,7 @@ import { HiMenuAlt4 } from "react-icons/hi";
 import NavMenu from '../Common/NavMenu';
 import Intro from './Intro';
 import About from './About';
+import Resume from './Resume';
 
 
 export default function MainContent() {
@@ -29,6 +30,7 @@ export default function MainContent() {
             <div className='max-w-3xl'>
                 <Intro />
                 <About />
+                <Resume/>
             </div>
         </div>
     )
