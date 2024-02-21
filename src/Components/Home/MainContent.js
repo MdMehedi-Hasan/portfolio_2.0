@@ -5,6 +5,7 @@ import NavMenu from '../Common/NavMenu';
 import Intro from './Intro';
 import About from './About';
 import Resume from './Resume';
+import Services from './Services';
 
 
 export default function MainContent() {
@@ -30,7 +31,8 @@ export default function MainContent() {
             <div className='max-w-3xl'>
                 <Intro />
                 <About />
-                <Resume/>
+                <Resume />
+                <Services/>
             </div>
         </div>
     )
