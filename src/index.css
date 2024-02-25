@@ -41,6 +41,9 @@ html{
 .bg-gray{
   background-color: #888888;
 }
+.border-primary{
+  border-color: #28e98c;
+}
 .border-gray{
   border-color: #888888;
 }
