@@ -6,6 +6,10 @@ import Intro from './Intro';
 import About from './About';
 import Resume from './Resume';
 import Services from './Services';
+import Skills from './Skills';
+import Portfolio from './Portfolio';
+import Reviews from './Reviews';
+import Contact from './Contact';
 
 
 export default function MainContent() {
@@ -32,7 +36,11 @@ export default function MainContent() {
                 <Intro />
                 <About />
                 <Resume />
-                <Services/>
+                <Services />
+                <Skills />
+                <Portfolio />
+                <Reviews />
+                <Contact/>
             </div>
         </div>
     )

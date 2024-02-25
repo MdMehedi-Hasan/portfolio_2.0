@@ -6,9 +6,9 @@ import { VscDebugAll } from "react-icons/vsc";
 
 export default function Services() {
     const services = [
-        { title: 'Development', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Nostrum ratione aspernatur amet ut eaque eius ducimus.Earum esse sed, illum voluptatem aperiam odio harum.Ut amet autem, alias itaque assumenda quasi nobis.', icon: <FaCode /> },
-        { title: 'Design', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Nostrum ratione aspernatur amet ut eaque eius ducimus.Earum esse sed, illum voluptatem aperiam odio harum.Ut amet autem, alias itaque assumenda quasi nobis.', icon: <MdOutlineDesignServices /> },
-        { title: 'Bug Solving', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Nostrum ratione aspernatur amet ut eaque eius ducimus.Earum esse sed, illum voluptatem aperiam odio harum.Ut amet autem, alias itaque assumenda quasi nobis.', icon: <VscDebugAll /> }
+        { title: 'Design', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Nostrum ratione aspernatur amet ut eaque eius ducimus.Earum esse sed, illum voluptatem aperiam odio harum.Ut amet autem, alias itaque assumenda quasi nobis.', icon: <MdOutlineDesignServices className='text-4xl'/> },
+        { title: 'Development', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Nostrum ratione aspernatur amet ut eaque eius ducimus.Earum esse sed, illum voluptatem aperiam odio harum.Ut amet autem, alias itaque assumenda quasi nobis.', icon: <FaCode className='text-4xl'/> },
+        { title: 'Bug Solving', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Nostrum ratione aspernatur amet ut eaque eius ducimus.Earum esse sed, illum voluptatem aperiam odio harum.Ut amet autem, alias itaque assumenda quasi nobis.', icon: <VscDebugAll className='text-4xl'/> }
     ]
     return (
         <section>
