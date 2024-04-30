@@ -12,8 +12,8 @@ export default function Services() {
     ]
     return (
         <section>
-            <span className='flex items-center gap-2 text-xs border border-[#565656] rounded-full w-fit px-4 py-2' id='services'><CgMenuRightAlt />SERVICES</span>
-            <h1>My Specializations</h1>
+            <span className='flex items-center gap-2 text-xs border border-[#565656] rounded-full w-fit px-4 py-2 mt-36' id='services'><CgMenuRightAlt />SERVICES</span>
+            <h1 className='text-5xl mt-16 mb-10'>My <span className='text-primary'>Specializations</span></h1>
             <div className='flex flex-col gap-8'>
                 {
                     services.map((item, index) =>

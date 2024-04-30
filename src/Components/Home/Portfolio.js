@@ -9,8 +9,8 @@ import ic5 from '../../Assets/Portfolios/5.png'
 export default function Portfolio() {
     return (
         <section>
-            <span className='flex items-center gap-2 text-xs border border-[#565656] rounded-full w-fit px-4 py-2 mb-5' id='portfolio'><RxDragHandleDots2 />PORTFOLIO</span>
-            <div className='grid grid-cols-2 gap-5'>
+            <span className='flex items-center gap-2 text-xs border border-[#565656] rounded-full w-fit px-4 py-2 mb-10 mt-36' id='portfolio'><RxDragHandleDots2 />PORTFOLIO</span>
+            <div className='grid grid-cols-2 gap-8 gap-y-16'>
                 <div className='col-span-2 w-full rounded-lg'>
                     <img src={ic1} alt="portfolio" className='rounded-lg' />
                 </div>
