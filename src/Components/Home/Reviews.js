@@ -27,7 +27,7 @@ export default function Reviews() {
 
   return (
     <div className='mt-10 mb-36'>
-      <span className='flex items-center gap-2 text-xs border border-[#565656] rounded-full w-fit px-4 py-2'><BiMessageDetail />REVIEWS</span>
+      <span className='flex items-center gap-2 text-xs border border-[#565656] rounded-full w-fit px-4 py-2' id='reviews'><BiMessageDetail />REVIEWS</span>
       <h1 className='text-5xl mt-16 mb-10'>Trusted by <span className='text-primary'>Leading Companies</span></h1>
       {/* Swiper */}
       <Swiper

@@ -18,7 +18,7 @@ export default function Contact() {
   };
   return (
     <div className='mb-10 mt-10'>
-      <span className='flex items-center gap-2 text-xs border border-[#565656] rounded-full w-fit px-4 py-2'><MdOutlineMail />CONTACT</span>
+      <span className='flex items-center gap-2 text-xs border border-[#565656] rounded-full w-fit px-4 py-2' id='contact'><MdOutlineMail />CONTACT</span>
       <h1 className='text-5xl tracking-wider leading-snug mb-5 mt-10'>Get In <span className='text-primary'>Touch</span></h1>
       <span className='text-xl'>mdmehedihasan9874@gmail.com</span>
       <form ref={form} onSubmit={sendEmail} className='grid grid-cols-2 gap-10 mt-16'>

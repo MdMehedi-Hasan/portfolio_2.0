@@ -1,14 +1,16 @@
 import React from 'react'
 import { IoIosBriefcase } from "react-icons/io";
-import { GoDotFill } from "react-icons/go";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Resume() {
+    AOS.init();
     return (
         <section>
-            <span className='flex items-center gap-2 text-xs border border-[#565656] rounded-full w-fit px-4 py-2'><IoIosBriefcase />RESUME</span>
+            <span className='flex items-center gap-2 text-xs border border-[#565656] rounded-full w-fit px-4 py-2' id='resume'><IoIosBriefcase />RESUME</span>
             <h1>Work Experience</h1>
             <ul>
-                <li className='flex gap-5'>
+                <li className='flex gap-5' data-aos="fade-left">
                     <div className='flex flex-col items-center'>
                         <div className='w-3 h-3 bg-white rounded-full'></div>
                         <div className='h-full w-[0.1px] bg-white'></div>
@@ -24,7 +26,7 @@ export default function Resume() {
                         </ul>
                     </div>
                 </li>
-                <li className='flex gap-5'>
+                <li className='flex gap-5' data-aos="fade-left">
                     <div className='flex flex-col items-center'>
                         <div className='w-3 h-3 bg-white rounded-full'></div>
                         <div className='h-full w-[0.1px] bg-white'></div>
