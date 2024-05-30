@@ -21,7 +21,7 @@ export default function Skills() {
         <div>
             <span className='flex items-center gap-2 text-xs border border-[#565656] rounded-full w-fit px-4 py-2 mb-5 mt-24' id='skills'><LiaShapesSolid />SKILLS</span>
             <h1 className='text-5xl mt-8 mb-16'>My <span className='text-primary'>Skills</span></h1>
-            <div className='grid grid-cols-4 gap-y-10'>
+            <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-y-10'>
                 {
                     skills.map((item, index) => <div key={index} className='flex flex-col items-center gap-2'>
                         <span className='border border-gray rounded-full py-16 px-10'>{item.icon}</span>

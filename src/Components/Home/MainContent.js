@@ -71,11 +71,11 @@ export default function MainContent() {
             {/*  */}
             <div className='lg:max-w-3xl'>
                 <Intro />
-                {/* <About />
+                <About />
                 <Resume />
                 <Services />
                 <Skills />
-                <Portfolio />
+                {/* <Portfolio />
                 <Reviews />
                 <Contact /> */}
             </div>

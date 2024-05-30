@@ -17,7 +17,7 @@ export default function Services() {
             <div className='flex flex-col gap-8'>
                 {
                     services.map((item, index) =>
-                        <div className='flex items-start gap-10 p-12 border border-green-300 rounded-3xl' key={index}>
+                        <div className='flex items-start gap-10 p-8 md:p-12 border border-green-300 rounded-3xl' key={index}>
                             <div>
                                 <h4 className='text-2xl mb-3'>{item.title}</h4>
                                 <p className=''>{item.description}</p>
