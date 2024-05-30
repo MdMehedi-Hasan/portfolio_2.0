@@ -75,9 +75,9 @@ export default function MainContent() {
                 <Resume />
                 <Services />
                 <Skills />
-                {/* <Portfolio />
+                <Portfolio />
                 <Reviews />
-                <Contact /> */}
+                <Contact />
             </div>
         </div>
     )

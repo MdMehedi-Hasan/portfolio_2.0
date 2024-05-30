@@ -10,21 +10,21 @@ export default function Portfolio() {
     return (
         <section>
             <span className='flex items-center gap-2 text-xs border border-[#565656] rounded-full w-fit px-4 py-2 mb-10 mt-36' id='portfolio'><RxDragHandleDots2 />PORTFOLIO</span>
-            <div className='grid grid-cols-2 gap-8 gap-y-16'>
-                <div className='col-span-2 w-full rounded-lg'>
-                    <img src={ic1} alt="portfolio" className='rounded-lg' />
+            <div className='grid grid-cols-1 md:grid-cols-2 md:gap-8 gap-y-16'>
+                <div className='md:col-span-2 w-full rounded-lg'>
+                    <img src={ic1} alt="portfolio" className='w-full rounded-lg' />
                 </div>
                 <div className='w-full rounded-lg'>
-                    <img src={ic2} alt="portfolio" className='rounded-lg' />
+                    <img src={ic2} alt="portfolio" className='w-full rounded-lg' />
                 </div>
                 <div className='w-full rounded-lg'>
-                    <img src={ic3} alt="portfolio" className='rounded-lg' />
+                    <img src={ic3} alt="portfolio" className='w-full rounded-lg' />
                 </div>
-                <div className='col-span-2 w-full rounded-lg'>
-                    <img src={ic4} alt="portfolio" className='rounded-lg' />
+                <div className='md:col-span-2 w-full rounded-lg'>
+                    <img src={ic4} alt="portfolio" className='w-full rounded-lg' />
                 </div>
-                <div className='col-span-2 w-full rounded-lg'>
-                    <img src={ic5} alt="portfolio" className='rounded-lg' />
+                <div className='md:col-span-2 w-full rounded-lg'>
+                    <img src={ic5} alt="portfolio" className='w-full rounded-lg' />
                 </div>
             </div>
         </section>
