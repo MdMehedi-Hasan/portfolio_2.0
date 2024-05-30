@@ -10,7 +10,7 @@ import { Tooltip } from '@mui/material';
 
 export default function NavMenu() {
   return (
-    <ul className='border rounded-3xl w-fit px-2 py-3 flex flex-col gap-3'>
+    <ul className='border rounded-3xl w-fit px-2 py-3 hidden lg:flex flex-col gap-3'>
       <Tooltip title="Home" placement="left" arrow><li className='hover:text-[#27d280] duration-200'><a href="#intro"><SlHome /></a></li></Tooltip>
       <Tooltip title="About" placement="left" arrow><li className='hover:text-[#27d280] duration-200'><a href="#about"><GoPerson /></a></li></Tooltip>
       <Tooltip title="Resume" placement="left" arrow><li className='hover:text-[#27d280] duration-200'><a href="#resume"><CgFileDocument /></a></li></Tooltip>

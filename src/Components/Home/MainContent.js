@@ -24,7 +24,7 @@ import { RiTwitterXFill } from 'react-icons/ri';
 export default function MainContent() {
     const [open, setOpen] = React.useState(false);
     return (
-        <div className='text-white relative pl-10'>
+        <div className='text-white relative lg:pl-10'>
             {/*  */}
             <button onClick={() => setOpen(true)} className='border border-gray rounded-full p-2 text-xl fixed top-5 right-10 z-10'>
                 <HiMenuAlt4 />
@@ -69,15 +69,15 @@ export default function MainContent() {
                 </div>
             </SwipeableDrawer>
             {/*  */}
-            <div className='max-w-3xl'>
+            <div className='lg:max-w-3xl'>
                 <Intro />
-                <About />
+                {/* <About />
                 <Resume />
                 <Services />
                 <Skills />
                 <Portfolio />
                 <Reviews />
-                <Contact />
+                <Contact /> */}
             </div>
         </div>
     )
