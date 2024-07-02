@@ -1,6 +1,8 @@
 import React, { useRef } from 'react'
 import { BiMessageDetail } from 'react-icons/bi'
-import samir from '../../Assets/companies/al_samir.jpeg'
+import munim from '../../Assets/companies/Munim-Bhai-1024x1024.webp'
+import fahim from '../../Assets/companies/fahim.jpg'
+import anam from '../../Assets/companies/anam.webp'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -47,10 +49,10 @@ export default function Reviews() {
         <SwiperSlide>
           <div className='border-2 border-gray-400 rounded-3xl p-10'>
             <div className='flex items-center gap-3'>
-              <img src={samir} alt="Al Samir" className='w-12 rounded-full' />
+              <img src={munim} alt="Al Samir" className='w-12 h-12 object-cover rounded-full bg-white' />
               <div>
-                <h5>Al Samir</h5>
-                <span>CEO of <span className='text-primary'>Interactive Cares</span></span>
+                <h5>Tanveer Hossain Munim</h5>
+                <span>CTO of <a className='text-primary' href="https://interactivecares.com/">Interactive Cares</a></span>
               </div>
             </div>
             <p className='mt-8 text-xl mb-8'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, facilis dolorum! Id fugiat blanditiis esse fugit consequatur aspernatur reprehenderit voluptatibus deleniti veritatis eum. Ducimus, quas numquam.</p>
@@ -60,10 +62,10 @@ export default function Reviews() {
         <SwiperSlide>
           <div className='border-2 border-gray-400 rounded-3xl p-10'>
             <div className='flex items-center gap-3'>
-              <img src={samir} alt="Al Samir" className='w-12 rounded-full' />
+              <img src={fahim} alt="Al Samir" className='w-12 h-12 object-cover rounded-full bg-white' />
               <div>
                 <h5>Tanjim Al Fahim</h5>
-                <span>CEO of <span className='text-primary'>Arena Web Security</span></span>
+                <span>CEO of <a className='text-primary' href="https://arenawebsecurity.net/">Arena Web Security</a></span>
               </div>
             </div>
             <p className='mt-8 text-xl mb-8'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, facilis dolorum! Id fugiat blanditiis esse fugit consequatur aspernatur reprehenderit voluptatibus deleniti veritatis eum. Ducimus, quas numquam.</p>
@@ -73,14 +75,14 @@ export default function Reviews() {
         <SwiperSlide>
           <div className='border-2 border-gray-400 rounded-3xl p-10'>
             <div className='flex items-center gap-3'>
-              <img src={samir} alt="Al Samir" className='w-12 rounded-full' />
+              <img src={anam} alt="Al Samir" className='w-12 rounded-full' />
               <div>
-                <h5>Al Samir</h5>
-                <span>CEO of <span className='text-primary'>Interactive Cares</span></span>
+                <h5>Sheejon Anam</h5>
+                <span>Founder of <a className='text-primary' href='https://the35mm.net/'>The 35mm</a></span>
               </div>
             </div>
             <p className='mt-8 text-xl mb-8'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, facilis dolorum! Id fugiat blanditiis esse fugit consequatur aspernatur reprehenderit voluptatibus deleniti veritatis eum. Ducimus, quas numquam.</p>
-            <span className='text-sm'>JOB (Full Time)</span>
+            <span className='text-sm'>Project</span>
           </div>
         </SwiperSlide>
       </Swiper>

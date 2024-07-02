@@ -41,7 +41,7 @@ export default function MainContent() {
                     sx: {
                         backgroundColor: "#191919",
                         color: "white",
-                        width: '350px'
+                        width: '60%'
                     }
                 }}
                 BackdropProps={{ style: { backgroundColor: '#565656', opacity: '0.5' } }}
