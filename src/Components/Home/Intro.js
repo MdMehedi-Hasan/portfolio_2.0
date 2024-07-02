@@ -15,7 +15,7 @@ export default function Intro() {
             </div>
             <div className='flex items-center gap-20'>
                 <div>
-                    <h5 className='text-6xl text-primary mb-5'>02+</h5>
+                    <h5 className='text-6xl text-primary mb-5'>03+</h5>
                     <p className='text-secondary'>YEARS OF <br /> EXPERIENCE</p>
                 </div>
                 <div>

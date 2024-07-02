@@ -49,39 +49,39 @@ export default function Reviews() {
         <SwiperSlide>
           <div className='border-2 border-gray-400 rounded-3xl p-10'>
             <div className='flex items-center gap-3'>
-              <img src={munim} alt="Al Samir" className='w-12 h-12 object-cover rounded-full bg-white' />
+              <img src={munim} alt="munim" className='w-12 h-12 object-cover rounded-full bg-white' />
               <div>
                 <h5>Tanveer Hossain Munim</h5>
                 <span>CTO of <a className='text-primary' href="https://interactivecares.com/">Interactive Cares</a></span>
               </div>
             </div>
-            <p className='mt-8 text-xl mb-8'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, facilis dolorum! Id fugiat blanditiis esse fugit consequatur aspernatur reprehenderit voluptatibus deleniti veritatis eum. Ducimus, quas numquam.</p>
+            <p className='mt-8 text-lg mb-8'>As the CTO, I am thoroughly impressed with his work. His expertise has been instrumental in creating intuitive and responsive user interfaces for our products. He is an invaluable asset to our team.</p>
             <span className='text-sm'>JOB (Full Time)</span>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className='border-2 border-gray-400 rounded-3xl p-10'>
             <div className='flex items-center gap-3'>
-              <img src={fahim} alt="Al Samir" className='w-12 h-12 object-cover rounded-full bg-white' />
+              <img src={fahim} alt="fahim" className='w-12 h-12 object-cover rounded-full bg-white' />
               <div>
                 <h5>Tanjim Al Fahim</h5>
                 <span>CEO of <a className='text-primary' href="https://arenawebsecurity.net/">Arena Web Security</a></span>
               </div>
             </div>
-            <p className='mt-8 text-xl mb-8'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, facilis dolorum! Id fugiat blanditiis esse fugit consequatur aspernatur reprehenderit voluptatibus deleniti veritatis eum. Ducimus, quas numquam.</p>
+            <p className='mt-8 text-lg mb-8'>I am constantly amazed by his talent and innovation. His mastery of React.js and JavaScript brings our visions to life with stunning, user-friendly interfaces. He doesn't just code, he craft experiences that delight our users.</p>
             <span className='text-sm'>JOB (Full Time)</span>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className='border-2 border-gray-400 rounded-3xl p-10'>
             <div className='flex items-center gap-3'>
-              <img src={anam} alt="Al Samir" className='w-12 rounded-full' />
+              <img src={anam} alt="anam" className='w-12 rounded-full' />
               <div>
                 <h5>Sheejon Anam</h5>
                 <span>Founder of <a className='text-primary' href='https://the35mm.net/'>The 35mm</a></span>
               </div>
             </div>
-            <p className='mt-8 text-xl mb-8'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, facilis dolorum! Id fugiat blanditiis esse fugit consequatur aspernatur reprehenderit voluptatibus deleniti veritatis eum. Ducimus, quas numquam.</p>
+            <p className='mt-8 text-lg mb-8'>Working with him always gave me a positive vibe. He never dissapointed me with his work. I see the vision and he makes it happen for me. A highly professional and creative personality.</p>
             <span className='text-sm'>Project</span>
           </div>
         </SwiperSlide>
