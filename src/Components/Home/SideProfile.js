@@ -23,7 +23,7 @@ export default function SideProfile() {
                 <li className='border border-neutral-500 rounded-md p-2 text-slate-100 cursor-pointer'><a href="https://stackoverflow.com/users/18447905/mehedi-hasan" _blank><FaStackOverflow /></a></li>
                 <li className='border border-neutral-500 rounded-md p-2 text-slate-100 cursor-pointer'><a href="https://twitter.com/mehedirhasan" _blank><RiTwitterXFill /></a></li>
             </ul>
-            <p className='text-xs text-center text-slate-200'>Hello folks, I am Md. Mehedi Hasan a professional front-end developer with more than 2 years of working experience.</p>
+            <p className='text-xs text-center text-slate-200'>Hello folks, I am Md. Mehedi Hasan a professional front-end developer with more than 3<sup>+</sup> years of working experience.</p>
             <div className='flex justify-center mt-5'>
                 <button className='bg-primary rounded-full w-2/3 py-2 text-black' onClick={() => setOpen(true)}>Hire Me!</button>
             </div>
