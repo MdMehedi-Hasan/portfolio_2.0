@@ -14,11 +14,11 @@ export default function Intro() {
                 <Projects />
             </div>
             <div className='flex items-center gap-20'>
-                <div>
+                <div data-aos="fade-right" data-aos-duration="1500">
                     <h5 className='text-6xl text-primary mb-5'>03+</h5>
                     <p className='text-secondary'>YEARS OF <br /> EXPERIENCE</p>
                 </div>
-                <div>
+                <div data-aos="fade-left" data-aos-duration="1500">
                     <h5 className='text-6xl text-primary mb-5'>25+</h5>
                     <p className='text-secondary'>PROJECTS <br /> COMPLETED</p>
                 </div>

@@ -8,10 +8,10 @@ export default function Resume() {
     AOS.init();
     return (
         <section>
-            <span className='flex items-center gap-2 text-xs border border-[#565656] rounded-full w-fit px-4 py-2 mt-36 mb-16' id='resume'><IoIosBriefcase />RESUME</span>
-            <h1 className='text-5xl mb-10'>Work <span className='text-primary'>Experience</span></h1>
+            <span className='flex items-center gap-2 text-xs border border-[#565656] rounded-full w-fit px-4 py-2 mt-36 mb-16' id='resume' data-aos="fade-up" data-aos-duration="1500"><IoIosBriefcase />RESUME</span>
+            <h1 className='text-5xl mb-10' data-aos="fade-up" data-aos-duration="1500">Work <span className='text-primary'>Experience</span></h1>
             <ul>
-                <li className='flex gap-5 group' data-aos="fade-left">
+                <li className='flex gap-5 group' data-aos="fade-left" data-aos-duration="1500">
                     <div className='flex flex-col items-center'>
                         <div className='w-3 h-3 bg-gray-400 rounded-full group-hover:bg-[#28e98c] transition ease-in-out duration-300'></div>
                         <div className='h-full w-[0.1px] bg-gray-400'></div>
@@ -27,7 +27,7 @@ export default function Resume() {
                         </ul>
                     </div>
                 </li>
-                <li className='flex gap-5 group transition ease-in-out duration-300' data-aos="fade-left">
+                <li className='flex gap-5 group transition ease-in-out duration-300' data-aos="fade-left" data-aos-duration="1500">
                     <div className='flex flex-col items-center'>
                         <div className='w-3 h-3 bg-gray-400 rounded-full group-hover:bg-[#28e98c] transition ease-in-out duration-300'></div>
                         <div className='h-full w-[0.1px] bg-gray-400'></div>

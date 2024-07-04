@@ -10,7 +10,7 @@ import HireModal from '../Common/HireModal';
 export default function SideProfile() {
     const [open, setOpen] = useState(false);
     return (
-        <div className='border border-neutral-500 rounded-xl p-3 sideProfile mt-3'>
+        <div className='border border-neutral-500 rounded-xl p-3 h-fit mt-3'>
             <HireModal open={open} setOpen={setOpen} />
             <span className='flex gap-1 text-2xl mt-2 mb-5'>Mehedi <sup className='border rounded-full w-5 h-5 text-xs flex items-center justify-center font-normal'>M</sup></span>
             <div className='w-full h-fit bg-gradient-to-r from-zinc-400 via-gray-300 to-zinc-400 rounded-lg flex items-end justify-center'>
