@@ -30,7 +30,7 @@ export default function Reviews() {
   return (
     <div className='mt-36 mb-36'>
       <span className='flex items-center gap-2 text-xs border border-[#565656] rounded-full w-fit px-4 py-2' id='reviews' data-aos="fade-up" data-aos-duration="1500"><BiMessageDetail />REVIEWS</span>
-      <h1 className='text-5xl mt-16 mb-10' data-aos="fade-up" data-aos-duration="1500">Trusted by <span className='text-primary'>Leading Companies</span></h1>
+      <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-16 mb-10' data-aos="fade-up" data-aos-duration="1500">Trusted by <span className='text-primary'>Leading Companies</span></h1>
       <div data-aos="fade-up" data-aos-duration="1500">
         {/* Swiper */}
         <Swiper
@@ -48,7 +48,7 @@ export default function Reviews() {
           className="mySwiper"
         >
           <SwiperSlide>
-            <div className='border-2 border-gray-400 rounded-3xl p-10'>
+            <div className='border-2 border-gray-400 rounded-3xl p-5 sm:p-10'>
               <div className='flex items-center gap-3'>
                 <img src={munim} alt="munim" className='w-12 h-12 object-cover rounded-full bg-white' />
                 <div>

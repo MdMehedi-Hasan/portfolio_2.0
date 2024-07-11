@@ -13,13 +13,13 @@ export default function Services() {
     return (
         <section>
             <span className='flex items-center gap-2 text-xs border border-[#565656] rounded-full w-fit px-4 py-2 mt-36' id='services' data-aos="fade-up" data-aos-duration="1500"><CgMenuRightAlt />SERVICES</span>
-            <h1 className='text-5xl mt-16 mb-10' data-aos="fade-up" data-aos-duration="1500">My <span className='text-primary'>Specializations</span></h1>
+            <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-16 mb-10' data-aos="fade-up" data-aos-duration="1500">My <span className='text-primary'>Specializations</span></h1>
             <div className='flex flex-col gap-8'>
                 {
                     services.map((item, index) =>
-                        <div className='flex items-start justify-between gap-10 p-8 md:p-12 border border-neutral-500 group hover:border-[#28e98c] transition ease-in-out duration-200 rounded-3xl' key={index} data-aos="fade-up" data-aos-duration="1500">
+                        <div className='flex items-start justify-between gap-10 p-5 sm:p-8 md:p-12 border border-neutral-500 group hover:border-[#28e98c] transition ease-in-out duration-200 rounded-3xl' key={index} data-aos="fade-up" data-aos-duration="1500">
                             <div>
-                                <h4 className='text-2xl mb-3 group-hover:text-[#28e98c]'>{item.title}</h4>
+                                <h4 className='text-xl md:text-2xl mb-3 group-hover:text-[#28e98c]'>{item.title}</h4>
                                 <p className='text-sm text-neutral-400'>{item.description}</p>
                             </div>
                             <span className='text-4xl text-green-300'>{item.icon}</span>

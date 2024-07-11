@@ -9,7 +9,7 @@ export default function Resume() {
     return (
         <section>
             <span className='flex items-center gap-2 text-xs border border-[#565656] rounded-full w-fit px-4 py-2 mt-36 mb-16' id='resume' data-aos="fade-up" data-aos-duration="1500"><IoIosBriefcase />RESUME</span>
-            <h1 className='text-5xl mb-10' data-aos="fade-up" data-aos-duration="1500">Work <span className='text-primary'>Experience</span></h1>
+            <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-10' data-aos="fade-up" data-aos-duration="1500">Work <span className='text-primary'>Experience</span></h1>
             <ul>
                 <li className='flex gap-5 group' data-aos="fade-left" data-aos-duration="1500">
                     <div className='flex flex-col items-center'>
@@ -17,7 +17,8 @@ export default function Resume() {
                         <div className='h-full w-[0.1px] bg-gray-400'></div>
                     </div>
                     <div className='mb-20'>
-                        <h3 className='mb-5 text-gray-400 group-hover:text-[#28e98c] transition ease-in-out duration-300 text-xl'>2023 - Present</h3>
+                        <h2 className='mb-1 text-gray-400 group-hover:text-[#28e98c] transition ease-in-out duration-300 text-xl'><a href="https://interactivecares.com/">Interactive Cares</a></h2>
+                        <h3 className='mb-5 text-gray-400 group-hover:text-[#7c978a] transition ease-in-out duration-300 text-sm'>2023 - Present</h3>
                         <ul className='flex flex-col gap-4'>
                             <li className='flex items-center gap-2'><span><GoDash /></span>Develop an Ed-Tech platform from scratch.</li>
                             <li className='flex items-center gap-2'><span><GoDash /></span>Collaborate with backend developers for API integration.</li>
@@ -33,7 +34,8 @@ export default function Resume() {
                         <div className='h-full w-[0.1px] bg-gray-400'></div>
                     </div>
                     <div>
-                        <h3 className='mb-5 text-gray-400 group-hover:text-[#28e98c] transition ease-in-out duration-300 text-xl'>2022 - 2023</h3>
+                        <h2 className='mb-1 text-gray-400 group-hover:text-[#28e98c] transition ease-in-out duration-300 text-xl'><a href="https://www.arenawebsecurity.net/">Arena Web Security</a></h2>
+                        <h3 className='mb-5 text-gray-400 group-hover:text-[#7c978a] transition ease-in-out duration-300 text-sm'>2022 - 2023</h3>
                         <ul className='flex flex-col gap-4'>
                             <li className='flex items-center gap-2'><span><GoDash /></span>Building Interactive/Functional User Interfaces with Restful API.</li>
                             <li className='flex items-center gap-2'><span><GoDash /></span>Maintain projects with different libraries such as React, Vue.js etc.</li>
