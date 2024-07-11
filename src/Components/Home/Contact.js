@@ -39,7 +39,7 @@ export default function Contact() {
           <textarea name="message" className='bg-transparent outline-none border-b' placeholder='Write Your Message' />
         </div>
         <div className='flex justify-end col-span-2'>
-          <input type="submit" value="SEND MESSAGE" className='bg-green-400 rounded-full px-10 py-3 cursor-pointer' />
+          <input type="submit" value="SEND MESSAGE" className='bg-primary text-black rounded-full px-10 py-3 cursor-pointer' />
         </div>
       </form>
     </div>
