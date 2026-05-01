@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 // import profile from '../../Assets/profile.png'
 import profile from '../../Assets/profile2.png'
 // import profile from '../../Assets/test.jpg'
-import { FaDev, FaGithub, FaLinkedinIn, FaStackOverflow } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaStackOverflow } from "react-icons/fa";
 import { RiTwitterXFill } from "react-icons/ri";
 import '../../Styles/Sideprofile.css'
 import HireModal from '../Common/HireModal';
